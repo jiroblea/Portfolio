@@ -5,7 +5,7 @@
 }
 
 body {
-    margin-left: 15vw;
+    margin-left: 8vw;
     margin-right: 15vw;; 
 }
 
@@ -33,57 +33,47 @@ p {
     margin-bottom: 0.4em;
 }
 
-#header {
-    background-color: #111;
+header {
     position: fixed;
-    top: -50px;
-    transition: top 0.3s;
 }
 
-#header a {
-    float: left;
-    display: block;
+header a {
     color: white;
-    text-align: center;
-    padding: 4vh;
-    text-decoration: none;
 }
 
-#side-nav {
+nav {
     width: 18vw;
     position: fixed;
     z-index: 1;
     overflow-x: hidden;
     text-align: right;
-    margin-top: 35vh;
+    margin-top: 10vh;
+    border-right: 1px solid gray;
+    padding-right: 3vw;
+    padding-top: 26vh;
+    padding-bottom: 26vh;
 }
 
-#side-nav li {
+nav li {
     list-style-type: none;
     padding: 0.2em;
 }
 
 main {
     text-align: left;
-    margin-left: 22vw;
+    /* padding-left: 4vw; */
+    /* border-left: 1px solid gray; */
+    margin-left: 28vw;
 }
 
 section {
-    padding-top: 15vh;
-}
-
-section#education {
-    padding-bottom: 15vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 #home {
-    padding-top: 0vh;
-}
-
-#home-div {
-    padding-top: 30vh;
-    /* margin-top: 30vh; */
-    padding-bottom: 30vh;
+    padding-top: 32vh;
+    padding-bottom: 33vh;
 }
 
 #home a {
@@ -96,29 +86,21 @@ section#education {
     margin-bottom: 2em;
 }
 
-/* .container {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
+footer {
+    text-align: center;
+    margin-top: 8vh;
+    margin-bottom: 3vh;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-items: center;
-} */
-
-footer {
-    text-align: left;
-    margin-bottom: 3vh;
+footer p, 
+footer a {
+    font-size: small;
 }
 
 /* responsive layout */
 @media (max-width: 800px) {
-    .container > .row{
-        flex-direction: column;
+    * {
+        font-size: medium;
     }
 
     body {
@@ -126,7 +108,27 @@ footer {
         margin-right: 5vw;
     }
 
-    #side-nav {
-        text-align: left;
+    h1 {
+        font-size: 3em;
+    }
+
+    header {
+        /* margin: 1.5em; */
+        background-color: black;
+    }
+
+    header a {
+        /* color: black; */
+        background-color: black;
+    }
+
+    nav {
+        margin-left: -100vw;
+    }
+
+    main,
+    header,
+    footer {
+        margin-left: 0;
     }
 }
