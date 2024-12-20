@@ -3,8 +3,8 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="./templates/styles.css" type="text/css" rel="stylesheet">
         <title>Junius Oblea</title>
+        <link href="./style.css" type="text/css" rel="stylesheet">
     </head>
 
     <body>
@@ -12,63 +12,176 @@
             <a href="#home">Junius Oblea</a>
             <a href="mailto:juniusoblea@gmail.com">Contact</a> 
         </header>
+
+        <div id="header">
+            <a href="#home">Junius Oblea</a>
+            <a href="mailto:juniusoblea@gmail.com">Contact</a> 
+        </div>
         
         <nav id="side-nav">
-            <h2>Jump to</h2>
-            <ul id="side-nav-list">
+            <ul>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#my-tech-stack">My Tech Stack</a></li>
-                <li><a href="#education">Education</a></li>
                 <li><a href="#experience">Experience</a></li>
                 <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
                 <li><a href="#trainings">Trainings</a></li>
             </ul>
         </nav>
 
         <main>
-            <section id="home" class="content">
-                <div class="container">
+            <section id="home">
+                <!-- <p id="home-p">Top of the page</p> -->
+                <div id="home-div">
                     <h1>Junius Iosif Oblea</h1>
                     <h2>Computer and Software Engineer</h2>
                     <h2>from Manila, Philippines</h2>
+                    <br>
                     <a href="https://github.com/jiroblea">GitHub</a>
                     <a href="https://www.linkedin.com/in/juniusoblea">LinkedIn</a>
                 </div>
             </section>
 
-            <section id="my-teck-stack" class="content">
+            <section id="my-tech-stack">
                 <div>
                     <h2>My Tech Stack</h2>
-                    <h3>Programming Languages</h3>
-                    <p>
-                        Python 
-                        Java
-                        C++
-                        SQL
-                        HTML 
-                        CSS 
-                        JavaScript
-                        Bash
-                    </p>
-                    <h3>Frameworks and Libraries</h3>
-                    <p></p>
+                    <hr><br>
+
+                    <div class="content">
+                        <h3>Programming Languages</h3>
+                        <p>
+                            | Python 
+                            | Java
+                            | C++
+                            | SQL
+                            | HTML 
+                            | CSS 
+                            | JavaScript
+                            | Bash
+                        </p>
+                    </div>
+
+                    <div class="content">
+                        <h3>Frameworks and Libraries</h3>
+                        <p>
+                            | Kivy 
+                            | Robot Operating System 2 (ROS2)
+                            | Selenium
+                            | Cucumber
+                        </p>
+                    </div>
+
+                    <div class="content">
+                        <h3>Development Tools</h3>
+                        <p>
+                            | Git
+                            | GitHub
+                            | Visual Studio Code 
+                            | Tableau 
+                        </p>
+                    </div>
+
+                    <div class="content">
+                        <h3>Platforms and Systems</h3>
+                        <p>
+                            | Linux
+                            | Windows
+                            | Arduino
+                            | Raspberry Pi
+                        </p>
+                    </div>
                 </div>
             </section>
 
-            <section id="my-teck-stack" class="content">
+            <section id="experience">
                 <div>
-                    <h2>My Tech Stack</h2>
-                    <h3>Programming Languages</h3>
-                    <p>
-                        Python 
-                        Java
-                        C++
-                        SQL
-                        HTML 
-                        CSS 
-                        JavaScript
-                        Bash
-                    </p>
+                    <h2>Experience</h2>
+                    <hr><br>
+
+                    <div class="content">
+                        <h3>Quality Assurance Automation Intern</h3>
+                        <p>
+                            Infor
+                            | Taguig, Philippines
+                            | August to October 2023
+                        </p>
+                    </div>
+
+                    <div class="content">
+                        <h3>Digital Automation Intern</h3>
+                        <p>
+                            DevKinetics
+                            | Remote
+                            | August to October 2022
+                        </p>
+                    </div>
+
+                    <div class="content">
+                        <h3>Customer Service Text Annotator</h3>
+                        <p>
+                            Appen
+                            | Remote
+                            | July to August 2020
+                        </p>
+                    </div>
+
+                    <div class="content">
+                        <h3>Data Entry Keyer</h3>
+                        <p>
+                            SGMP
+                            | Laguna
+                            | April to May 2019
+                        </p>
+                    </div>
+                    
+                </div>
+            </section>
+            
+            <section id="projects">
+                <div>
+                    <h2>Projects</h2>
+                    <hr><br>
+
+                    <div class="content">
+                        <h3>Iskrambol: Word Game</h3>
+                        <p>July 2024 to Present</p>
+                        <p>Skills: Python, Kivy, OOP, Documentation, Project Management</p>
+                        <img src="https://picsum.photos/100" alt="">
+                        <img src="https://picsum.photos/100" alt="">
+                        <img src="https://picsum.photos/100" alt="">
+                        <br>
+                        <p>A word game designed to gauge players' vocabulary while competing against other players or against time.</p>
+                    </div> 
+
+                    <div class="content">
+                        <h3>Home Defense Rover</h3>
+                        <p>October 2023 to July 2024</p>
+                        <p>Skills: Python, C++, Bash, ROS2, Firebase, Ubuntu Server, Raspberry Pi, Arduino, Agile Methodology</p>
+                        <img src="https://picsum.photos/100" alt="">
+                        <img src="https://picsum.photos/100" alt="">
+                        <br>
+                        <p>
+                            Our group's capstone with the following functionalities:
+                            (a) Face Recognition,
+                            (b) Heat Detection,
+                            (c) Sound Alarm,
+                            (d) Self Navigation, and
+                            (e) Email Notification.
+                        </p>
+                    </div>
+
+                </div>
+            </section>
+
+            <section id="education">
+                <div>
+                    <h2>Education</h2>
+                    <hr><br>
+
+                    <h3>Bachelor of Science in Computer Engineering</h3>
+                    <p>with Big Data Specialization</p>
+                    <p>Polytechnic University of the Philippines</p>
+                    <p>Batch 2024</p>
                 </div>
             </section>
         </main>
