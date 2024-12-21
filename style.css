@@ -97,7 +97,7 @@ section {
 } */
 
 #home i {
-    font-size: 4vh;
+    font-size: 1.8em;
 }
 
 .devicon-div {
@@ -117,7 +117,11 @@ section {
 #my-tech-stack .devicon-text {
     text-align: center;
     padding: 0.5em;
-    width: 10vh;
+    width: 5em;
+}
+
+#my-tech-stack .devicon-text p {
+    padding-top: 0.2em;   
 }
 
 #my-tech-stack i,
