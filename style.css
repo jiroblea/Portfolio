@@ -6,7 +6,8 @@
 
 body {
     margin-left: 8vw;
-    margin-right: 15vw;; 
+    margin-right: 15vw;
+    background-color: #fefefa;
 }
 
 h1 {
@@ -31,6 +32,16 @@ p {
     font-size: 1em;
     font-weight: normal;
     margin-bottom: 0.4em;
+}
+
+a:link {
+    color: #191970;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #318ce7;
+    text-decoration: underline;
 }
 
 header {
@@ -61,8 +72,6 @@ nav li {
 
 main {
     text-align: left;
-    /* padding-left: 4vw; */
-    /* border-left: 1px solid gray; */
     margin-left: 28vw;
 }
 
@@ -77,13 +86,44 @@ section {
 }
 
 #home a {
-    padding-top: 0.5em;
+    padding-top: 0em;
     padding-bottom: 0.5em;
+    padding-right: 2em;
+}
+
+/* #home .devicon-text {
+    text-align: center;
+    padding-right: 2em;
+} */
+
+#home i {
+    font-size: 4vh;
+}
+
+.devicon-div {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .content {
     margin-top: 0.2em;
     margin-bottom: 2em;
+}
+
+#my-tech-stack h3 {
+    margin-bottom: 0.5em;
+}
+
+#my-tech-stack .devicon-text {
+    text-align: center;
+    padding: 0.5em;
+    width: 10vh;
+}
+
+#my-tech-stack i,
+#my-tech-stack img {
+    font-size: 5vh;
+    height: 5vh;
 }
 
 footer {
@@ -92,9 +132,13 @@ footer {
     margin-bottom: 3vh;
 }
 
-footer p, 
-footer a {
+footer p {
     font-size: small;
+}
+
+footer a:link {
+    font-size: medium;
+    text-decoration: underline;
 }
 
 /* responsive layout */
