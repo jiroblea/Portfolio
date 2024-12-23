@@ -35,9 +35,10 @@ h4 {
 }
 
 p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
     font-weight: normal;
     margin-bottom: 0.4rem;
+    line-height: 1.1rem;
 }
 
 a {
@@ -61,11 +62,13 @@ nav {
     z-index: 1;
     overflow-x: hidden;
     text-align: right;
-    margin-top: 10vh;
     border-right: 1px solid gray;
     padding-right: 3vw;
     padding-top: 26vh;
     padding-bottom: 26vh;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 nav li {
@@ -226,7 +229,7 @@ footer a:link {
 /* responsive layout */
 @media (max-width: 800px) {
     * {
-        font-size: medium;
+        font-size: large;
     }
 
     body {
