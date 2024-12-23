@@ -28,20 +28,31 @@ h3 {
     margin-bottom: 0.4rem;
 }
 
-p {
+h4 {
     font-size: 1rem;
     font-weight: normal;
     margin-bottom: 0.4rem;
 }
 
-a:link {
+p {
+    font-size: 0.8rem;
+    font-weight: normal;
+    margin-bottom: 0.4rem;
+}
+
+a {
     color: #191970;
     text-decoration: none;
+    padding: 0.2rem;
+    border: 2px solid #fefefa;
+    border-radius: 0.3rem;
 }
 
 a:hover {
-    color: #318ce7;
-    text-decoration: underline;
+    color: #191970;
+    /* text-decoration: underline; */
+    border: 2px solid #191970;
+    border-radius: 0.3rem;
 }
 
 nav {
@@ -59,7 +70,15 @@ nav {
 
 nav li {
     list-style-type: none;
-    padding: 0.2rem;
+    padding: 0.4rem;
+}
+
+nav a {
+    color: #c0c0c0;
+}
+
+nav a#home-contact {
+    color: #191970;
 }
 
 main {
@@ -86,8 +105,8 @@ section {
     font-size: 1rem;
     background-color: #fefefa;
     padding: 0.4rem 0.5rem 0.5rem 0.5rem;
-    border: 1px solid #191970;
-    border-radius: 0.4rem;
+    border: 1px solid #c0c0c0;
+    border-radius: 0.3rem;
     margin-right: 0.5rem;
     margin-bottom: 0.5rem;
 }
@@ -100,26 +119,47 @@ section {
 }
 
 #home {
-    padding-top: 32vh;
-    padding-bottom: 33vh;
+    padding-top: 34vh;
+    padding-bottom: 32vh;
+}
+
+#home a,
+#home i {
+    font-size: 0.8rem;
 }
 
 #home a {
+    color: #fefefe;
+    background-color: #111111;
+    padding: 0.4rem;
+    border: 2px solid #111111;
+    border-radius: 0.3rem;
+    margin-right: 0.3rem;
+}
+
+#home a:hover {
+    color: #191970;
+    background-color: #fefefe;
+    border: 2px solid #191970;
+    border-radius: 0.3rem;
+}
+
+/* #home a {
     font-size: 1.2rem;
     padding: 0.5rem;    
     margin-right: 0.5rem;
     border: 2px solid #fefefa;
-}
+} */
 
 /* #home a#mail {
     border: 2px solid #191970;
     border-radius: 0.3rem;
 } */
 
-#home a:hover {
+/* #home a:hover {
     border: 2px solid #318ce7;
     border-radius: 0.3rem;
-}
+} */
 
 #my-tech-stack h3 {
     margin-bottom: 0.5rem;
@@ -143,8 +183,29 @@ section {
 
 #projects .devicon-text i,
 #projects .devicon-text img {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     height: 0.7rem;
+}
+
+#projects a, 
+#projects i {
+    font-size: small;
+}
+
+#projects a {
+    color: #fefefa;
+    background-color: #111111;
+    padding: 0.2rem;
+    padding-top: 0.3rem;
+    border: 1px solid #111111;
+    border-radius: 0.3rem;
+}
+
+#projects a:hover {
+    color: #191970;
+    background-color: #fefefa;
+    border: 2px solid #191970;
+    border-radius: 0.3rem;
 }
 
 footer {
